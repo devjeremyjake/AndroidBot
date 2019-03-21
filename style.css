@@ -1,0 +1,218 @@
+/*styling for the index,html file*/
+body {
+	background-color: #6bad87;
+	/*
+	margin: 0;
+	background-position: center;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    height: 100%;*/
+}
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
+	border-bottom: 2px solid #0cb457;
+	border-right: 2px solid #0cb457;
+	width: 400px;
+	box-shadow: 4px 4px px #0cb457;
+	-moz-box-shadow: 4px 4px px #0cb457;
+	-ms-box-shadow: 4px 4px px #0cb457;
+	-webkit-box-shadow: 4px 4px px #0cb457;
+	-o-box-shadow: 4px 4px px #0cb457;
+	color:  #62dd96;
+}
+
+.robots {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+
+}
+/* class selector styling*/
+.head,
+.left_arm,
+.torso,
+.right_arm,
+.left_leg,
+.right_leg {
+	background-color: rgb(81, 104, 91);
+}
+
+.head {
+	width: 200px;
+	margin: 0 auto;
+	height: 130px;
+	border-radius: 200px 200px 0 0;
+	margin-bottom: 10px;
+}
+
+.eyes {
+	display: flex;
+}
+
+.head:hover {
+	width: 250px;
+    transition: 1s ease-in-out;
+}
+
+.upper_body {
+	width: 300px;
+	height: 150px;
+	display: flex;
+}
+
+.left_arm, .right_arm {
+	width: 40px;
+	height: 125px;
+	border-radius: 100px;
+}
+
+.left_arm {
+	margin-right: 10px;
+}
+
+.left_arm:hover {
+	/*animation style sc'ript*/
+	-webkit-transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
+	-o-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	transform: rotate(20deg);
+}
+
+.right_arm {
+	margin-left: 10px;
+}
+
+.right_arm:hover {
+	/*animation style sc'ript*/
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	transform: rotate(--20deg);
+}
+
+.torso {
+	width: 200px;
+	height: 200px;
+	border-radius: 0 0 50px 50px;
+}
+
+.lower_body {
+	width: 200px;
+	height: 200px;
+	/*This is another useful property. What do you think it does*/
+	margin: 0 auto;
+	display: flex;
+}
+
+.left_leg, .right_leg {
+	width: 40px;
+	height: 120px;
+	border-radius: 0 0 100px 100px;
+}
+
+.left_leg {
+	margin-left: 45px;
+}
+
+.left_leg:hover {
+	/*animation style sc'ript*/
+	-webkit-transform: rotate(20deg);
+	-moz-transform: rotate(20deg);
+	-o-transform: rotate(20deg);
+	-ms-transform: rotate(20deg);
+	transform: rotate(20deg);
+}
+
+.right_leg {
+	margin-left: 30px;
+}
+
+.right_leg:hover {
+	/*animation style sc'ript*/
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
+.left_eye, .right_eye {
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	background-color: rgba(210, 252, 191, 0.664);
+}
+
+.left_eye { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 90px; 
+	left: 40px; 
+	transition: 1s ease-in-out;
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 60px; 
+	left: 120px; 
+}
+
+.button_1, .button_2, .button_3, .button_4, .button_5, .button_6, .button_7, .button_8 {
+	width: 20px;
+	height: 20px;
+	border-radius: 19px;
+	background-color: rgba(210, 252, 191, 0.664); 
+}
+
+.button_1 {
+	position: relative; 
+	top: 20px; 
+	left: 90px;
+}
+
+.button_2 {
+	position: relative; 
+	top: 40px; 
+	left: 80px;
+}
+
+.button_3 {
+	position: relative; 
+	top: -40px; 
+	left: 0px;
+}
+
+.button_4 {
+	position: relative; 
+	top: -35px; 
+	left:  15px;
+}
+
+.button_5 {
+	position: relative; 
+	top: -30px; 
+	left: 40px;
+}
+
+.button_6 {
+	position: relative; 
+	top: -45px; 
+	left: 120px;
+}
+
+.button_7 {
+	position: relative; 
+	top: -90px; 
+	left: 155px;
+}
+
+.button_8 {
+	position: relative; 
+	top: -140px; 
+	left: 180px;
+}
